@@ -1,6 +1,6 @@
 # codewars-katas
 
-![https://www.codewars.com/users/_JDev_/](https://www.codewars.com/users/_JDev_/badges/large)
+[![](https://www.codewars.com/users/_JDev_)](https://www.codewars.com/users/_JDev_/badges/large)
 
 - Multiples of 3 or 5: / [MultiplesOf3or5.java](MultiplesOf3or5.java) / [Kata Link](https://www.codewars.com/kata/514b92a657cdc65150000006)
 - Create Phone Number: / [CreatePhoneNumber.java](CreatePhoneNumber.java) / [Kata Link](https://www.codewars.com/kata/525f50e3b73515a6db000b83)
