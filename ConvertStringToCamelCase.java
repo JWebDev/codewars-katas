@@ -19,6 +19,7 @@ public class ConvertStringToCamelCase {
             if (c == '-' || c == '_') camel.se += c;
         });
 
+
         return "";
     }
 }
