@@ -18,6 +18,7 @@ public class ConvertStringToCamelCase {
         CharBuffer.wrap(s).chars().forEach(c -> {
             if (c == '-' || c == '_') camel.se += c;
         });
+
         return "";
     }
 }
