@@ -1,7 +1,6 @@
 package katas.java;
 
 import java.util.List;
-import java.util.logging.Logger;
 
 /**
  * @author JDev
@@ -9,7 +8,6 @@ import java.util.logging.Logger;
  * Kata: https://www.codewars.com/kata/54b724efac3d5402db00065e
  */
 public class DecodeTheMorseCode {
-    private static Logger logger = Logger.getLogger("com.jdev.codewars");
 
     private static List<Character> english = List.of('a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l',
             'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x',
@@ -24,10 +22,10 @@ public class DecodeTheMorseCode {
 
     public static void main(String[] args) {
         String decoded = decode(".... . -.--   .--- ..- -.. ."); //HEY JUDE
-        logger.info(decoded);
+        System.out.println(decoded);
     }
 
-    public static String decode(String morseCode) {
+    private static String decode(String morseCode) {
         String decodedMorse = "";
         String[] letters = morseCode.trim().replaceAll("\\s{3}", " SPACE ").split("\\s");
         for (String letter : letters) {
@@ -38,5 +36,4 @@ public class DecodeTheMorseCode {
         }
         return decodedMorse;
     }
-
 }
