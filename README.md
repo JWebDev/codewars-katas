@@ -2,7 +2,7 @@
 
 [![](https://www.codewars.com/users/_JDev_/badges/large)](https://www.codewars.com/users/_JDev_)
 
-###Java
+### Java
 
 | Name | Source | Kata Link | Kata Difficulty |
 | :---         |     ---:      |          ---: |          :---: |
@@ -12,7 +12,7 @@
 | Convert string to camel case:     | [bulk](katas/java/ConvertStringToCamelCase.java)       | [/kata/517abf86da9663f1d2000003](https://www.codewars.com/kata/517abf86da9663f1d2000003)      |  6 kyu  |
 | Stop gninnipS My sdroW!:     | [bulk](katas/java/StopGninnipSMySdroW.java)       | [/kata/5264d2b162488dc400000001](https://www.codewars.com/kata/5264d2b162488dc400000001)      |  6 kyu  |
 
-###Go
+### Go
 | Name | Source | Kata Link | Kata Difficulty |
 | :---         |     ---:      |          ---: |          :---: |
 | Return Negative:   | [bulk](katas/go/ReturnNegative.go)     | [/kata/55685cd7ad70877c23000102](https://www.codewars.com/kata/55685cd7ad70877c23000102)  |  8 kyu  |
