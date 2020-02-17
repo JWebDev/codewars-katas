@@ -12,21 +12,26 @@ import java.util.stream.Collectors;
 public class EvaluateMathematicalExpression {
 
     public static void main(String[] args) {
-        System.out.printf("%-30s %-10.4f\n", "-123 = ", calculate("-123"));
-        System.out.printf("%-30s %-10.4f\n", "2 /2+3 * 4.75- -6 = ", calculate("2 /2+3 * 4.75- -6"));
-        System.out.printf("%-30s %-10.4f\n", "2 / (2 + 3) * 4.33 - -6 = ", calculate("2 / (2 + 3) * 4.33 - -6"));
-        System.out.printf("%-30s %-10.4f\n", "2 /2+3 * 4.75- -6 = ", calculate("2 /2+3 * 4.75- -6"));
-        System.out.printf("%-30s %-10.4f\n", "12* 123 = ", calculate("12* 123"));
-        System.out.printf("%-30s %-10.4f\n", "3 + 4 * 2 / ( 1 - ((55)) ) = ", calculate("3 + 4 * 2 / ( 1 - ((55)) )"));
+        System.out.printf("%-30s %-10.4f\n", "3 - -( -3) = ", calculate("3 - -( -3)")); //0
+//        System.out.printf("%-30s %-10.4f\n", "1 - -(-(-(-4))) = ", calculate("1 - -(-(-(-4)))")); //0
+//        System.out.printf("%-30s %-10.4f\n", "((80 - (19))) = ", calculate("((80 - (19)))")); //61
+//        System.out.printf("%-30s %-10.4f\n", "3 - -3 = ", calculate("3 - -3")); //6
+//        System.out.printf("%-30s %-10.4f\n", "-123 = ", calculate("-123"));
+//        System.out.printf("%-30s %-10.4f\n", "2 /2+3 * 4.75- -6 = ", calculate("2 /2+3 * 4.75- -6")); //21.25
+//        System.out.printf("%-30s %-10.4f\n", "2 / (2 + 3) * 4.33 - -6 = ", calculate("2 / (2 + 3) * 4.33 - -6")); //7.732
+//        System.out.printf("%-30s %-10.4f\n", "12* 123 = ", calculate("12* 123")); //1476
+//        System.out.printf("%-30s %-10.4f\n", "3 + 4 * 2 / ( 1 - ((55)) ) = ", calculate("3 + 4 * 2 / ( 1 - ((55)) )")); //8.851
+//        System.out.printf("%-30s %-10.4f\n", "1-1 = ", calculate("1-1")); //0
+//        System.out.printf("%-30s %-10.4f\n", "1 - -1 = ", calculate("1 - -1")); //2
     }
 
     private static double calculate(String expression) {
         Stack<Double> vStack = new Stack<Double>();
         Stack<Character> oStack = new Stack<Character>();
-        List<Character> chars = expression.chars().mapToObj(c -> Character.valueOf((char) c)).collect(Collectors.toList());
+        List<Character> chars = expression.replaceAll("\\s", "").chars().mapToObj(c -> Character.valueOf((char) c)).collect(Collectors.toList());
         for (int i = 0; i < chars.size(); i++) {
-            if (chars.get(i) == ' ')
-                continue;
+//            if (chars.get(i) == ' ')
+//                continue;
 
             if (isDigit(chars, i) || isNegativeNumber(chars, i)) {
                 String buffer = "";
@@ -41,11 +46,11 @@ public class EvaluateMathematicalExpression {
                     vStack.push(applyOperation(oStack.pop(), vStack.pop(), vStack.pop()));
                 oStack.pop();
             } else if (chars.get(i).toString().matches("[\\+\\-\\*\\/]")) {
-                if (!isNegativeNumber(chars, i)) {
+//                if (!isNegativeNumber(chars, i)) {
                     while (!oStack.empty() && hasPrecedence(chars.get(i), oStack.peek()))
                         vStack.push(applyOperation(oStack.pop(), vStack.pop(), vStack.pop()));
                     oStack.push(chars.get(i));
-                }
+//                }
             }
         }
         while (!oStack.empty())
@@ -59,7 +64,17 @@ public class EvaluateMathematicalExpression {
     }
 
     private static boolean isNegativeNumber(List<Character> chars, int index) {
-        return (index == 0 || chars.get(index - 1) == ' ') && chars.get(index) == '-' && Character.isDigit(chars.get(index + 1));
+        if (index == 0 && chars.get(index) == '-') {
+            return true;
+        } else if (!Character.isDigit(chars.get(index - 1)) && chars.get(index) == '-' && Character.isDigit(chars.get(index + 1))) {
+            return true;
+//        } else if (chars.get(index) == '-' && Character.isDigit(chars.get(index + 1))) {
+//            return true;
+        } else if (chars.get(index) == '-' && chars.get(index + 1) == '-' && index < chars.size() && Character.isDigit(chars.get(index + 2))) {
+            return false;
+        }
+        return false;
+//        return (index == 0 || chars.get(index - 1) == ' ') && chars.get(index) == '-' && Character.isDigit(chars.get(index + 1));
     }
 
     private static boolean hasPrecedence(char lOp, char rOp) {
