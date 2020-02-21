@@ -7,7 +7,7 @@
 | Name | Source | Kata Link | Kata Difficulty |
 | :---         |     ---:      |          ---: |          :---: |
 | Valid Braces:   | [bulk](katas/java/ValidBraces.java)     | [/kata/5277c8a221e209d3f6000b56](https://www.codewars.com/kata/5277c8a221e209d3f6000b56)  |  6 kyu  |
-| There was an Old Lady who Swallowed a Fly:   | [bulk](katas/java/ThereWasAnOldLadyWhoSwallowedFly.java)     | [/kata/5a68ffe3e626c5e85700002d](https://www.codewars.com/kata/5a68ffe3e626c5e85700002d)  |  6 kyu  |
+| ~~There was an Old Lady who Swallowed a Fly~~:   | [bulk](katas/java/ThereWasAnOldLadyWhoSwallowedFly.java)     | [/kata/5a68ffe3e626c5e85700002d](https://www.codewars.com/kata/5a68ffe3e626c5e85700002d)  |  6 kyu  |
 | Backwards Read Primes:   | [bulk](katas/java/BackwardsReadPrimes.java)     | [/kata/5539fecef69c483c5a000015](https://www.codewars.com/kata/5539fecef69c483c5a000015)  |  6 kyu  |
 | Create Phone Number:     | [bulk](katas/java/CreatePhoneNumber.java)       | [/kata/525f50e3b73515a6db000b83](https://www.codewars.com/kata/525f50e3b73515a6db000b83)      |  6 kyu  |
 | Decode the Morse code:     | [bulk](katas/java/DecodeTheMorseCode.java)       | [/kata/54b724efac3d5402db00065e](https://www.codewars.com/kata/54b724efac3d5402db00065e)     |  6 kyu  |
