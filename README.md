@@ -7,6 +7,8 @@
 | Name | Source | Kata Link | Kata Difficulty |
 | :---         |     ---:      |          ---: |          :---: |
 | Valid Braces:   | [bulk](katas/java/ValidBraces.java)     | [/kata/5277c8a221e209d3f6000b56](https://www.codewars.com/kata/5277c8a221e209d3f6000b56)  |  6 kyu  |
+| Maximum subarray sum:   | [bulk](katas/java/MaximumSubarraySum.java)     | [/kata/54521e9ec8e60bc4de000d6c](https://www.codewars.com/kata/54521e9ec8e60bc4de000d6c)  |  5 kyu  |
+| Simple Pig Latin:   | [bulk](katas/java/SimplePigLatin.java)     | [/kata/520b9d2ad5c005041100000f](https://www.codewars.com/kata/520b9d2ad5c005041100000f)  |  5 kyu  |
 | There was an Old Lady who Swallowed a Fly:   | [bulk](katas/java/ThereWasAnOldLadyWhoSwallowedFly.java)     | [/kata/5a68ffe3e626c5e85700002d](https://www.codewars.com/kata/5a68ffe3e626c5e85700002d)  |  6 kyu  |
 | Backwards Read Primes:   | [bulk](katas/java/BackwardsReadPrimes.java)     | [/kata/5539fecef69c483c5a000015](https://www.codewars.com/kata/5539fecef69c483c5a000015)  |  6 kyu  |
 | Create Phone Number:     | [bulk](katas/java/CreatePhoneNumber.java)       | [/kata/525f50e3b73515a6db000b83](https://www.codewars.com/kata/525f50e3b73515a6db000b83)      |  6 kyu  |
