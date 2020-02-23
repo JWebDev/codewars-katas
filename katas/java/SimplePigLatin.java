@@ -5,7 +5,7 @@ import java.util.regex.Pattern;
 /**
  * @author JDev
  * <p>
- * Kata: https://www.codewars.com/kata/517abf86da9663f1d2000003
+ * Kata: https://www.codewars.com/kata/520b9d2ad5c005041100000f
  */
 public class SimplePigLatin {
 
@@ -15,16 +15,8 @@ public class SimplePigLatin {
     }
 
     public static String pigIt(String str) {
-        return Pattern
-                .compile("[-_].")
+        return Pattern.compile("\\b\\w+\\b")
                 .matcher(str)
-                .replaceAll(matchResult -> String.valueOf((toUpper.charAt(matchResult.end() - 1))).toUpperCase());
-    }
-
-    private static String toCamelCase(String toUpper) {
-        return Pattern
-                .compile("[-_].")
-                .matcher(toUpper)
-                .replaceAll(matchResult -> String.valueOf((toUpper.charAt(matchResult.end() - 1))).toUpperCase());
+                .replaceAll(mR -> mR.group(0).substring(1) + mR.group(0).charAt(0) + "ay");
     }
 }

@@ -7,16 +7,17 @@
 | Name | Source | Kata Link | Kata Difficulty |
 | :---         |     ---:      |          ---: |          :---: |
 | Valid Braces:   | [bulk](katas/java/ValidBraces.java)     | [/kata/5277c8a221e209d3f6000b56](https://www.codewars.com/kata/5277c8a221e209d3f6000b56)  |  6 kyu  |
-| ~~There was an Old Lady who Swallowed a Fly~~:   | [bulk](katas/java/ThereWasAnOldLadyWhoSwallowedFly.java)     | [/kata/5a68ffe3e626c5e85700002d](https://www.codewars.com/kata/5a68ffe3e626c5e85700002d)  |  6 kyu  |
 | Maximum subarray sum:   | [bulk](katas/java/MaximumSubarraySum.java)     | [/kata/54521e9ec8e60bc4de000d6c](https://www.codewars.com/kata/54521e9ec8e60bc4de000d6c)  |  5 kyu  |
 | Simple Pig Latin:   | [bulk](katas/java/SimplePigLatin.java)     | [/kata/520b9d2ad5c005041100000f](https://www.codewars.com/kata/520b9d2ad5c005041100000f)  |  5 kyu  |
-| There was an Old Lady who Swallowed a Fly:   | [bulk](katas/java/ThereWasAnOldLadyWhoSwallowedFly.java)     | [/kata/5a68ffe3e626c5e85700002d](https://www.codewars.com/kata/5a68ffe3e626c5e85700002d)  |  6 kyu  |
+| Strip Comments:   | [bulk](katas/java/StripComments.java)     | [/kata/51c8e37cee245da6b40000bd](https://www.codewars.com/kata/51c8e37cee245da6b40000bd)  |  4 kyu  |
+| Human Readable Time:   | [bulk](katas/java/HumanReadableTime.java)     | [/kata/52685f7382004e774f0001f7](https://www.codewars.com/kata/52685f7382004e774f0001f7)  |  5 kyu  |
 | Backwards Read Primes:   | [bulk](katas/java/BackwardsReadPrimes.java)     | [/kata/5539fecef69c483c5a000015](https://www.codewars.com/kata/5539fecef69c483c5a000015)  |  6 kyu  |
 | Create Phone Number:     | [bulk](katas/java/CreatePhoneNumber.java)       | [/kata/525f50e3b73515a6db000b83](https://www.codewars.com/kata/525f50e3b73515a6db000b83)      |  6 kyu  |
 | Decode the Morse code:     | [bulk](katas/java/DecodeTheMorseCode.java)       | [/kata/54b724efac3d5402db00065e](https://www.codewars.com/kata/54b724efac3d5402db00065e)     |  6 kyu  |
 | Convert string to camel case:     | [bulk](katas/java/ConvertStringToCamelCase.java)       | [/kata/517abf86da9663f1d2000003](https://www.codewars.com/kata/517abf86da9663f1d2000003)      |  6 kyu  |
 | Stop gninnipS My sdroW!:     | [bulk](katas/java/StopGninnipSMySdroW.java)       | [/kata/5264d2b162488dc400000001](https://www.codewars.com/kata/5264d2b162488dc400000001)      |  6 kyu  |
 | Multiples of 3 or 5:   | [bulk](katas/java/MultiplesOf3or5.java)     | [/kata/514b92a657cdc65150000006](https://www.codewars.com/kata/514b92a657cdc65150000006)  |  6 kyu  |
+| ~~There was an Old Lady who Swallowed a Fly~~:   | [bulk](katas/java/ThereWasAnOldLadyWhoSwallowedFly.java)     | [/kata/5a68ffe3e626c5e85700002d](https://www.codewars.com/kata/5a68ffe3e626c5e85700002d)  |  6 kyu  |
 | ~~Evaluate mathematical expression~~:   | [bulk](katas/java/EvaluateMathematicalExpression.java)     | [/kata/52a78825cdfc2cfc87000005](https://www.codewars.com/kata/52a78825cdfc2cfc87000005)  |  2 kyu  |
 
 ### Go
