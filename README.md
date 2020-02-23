@@ -9,6 +9,7 @@
 | Valid Braces:   | [bulk](katas/java/ValidBraces.java)     | [/kata/5277c8a221e209d3f6000b56](https://www.codewars.com/kata/5277c8a221e209d3f6000b56)  |  6 kyu  |
 | Maximum subarray sum:   | [bulk](katas/java/MaximumSubarraySum.java)     | [/kata/54521e9ec8e60bc4de000d6c](https://www.codewars.com/kata/54521e9ec8e60bc4de000d6c)  |  5 kyu  |
 | Simple Pig Latin:   | [bulk](katas/java/SimplePigLatin.java)     | [/kata/520b9d2ad5c005041100000f](https://www.codewars.com/kata/520b9d2ad5c005041100000f)  |  5 kyu  |
+| Most frequently used words in a text:   | [bulk](katas/java/MostFrequentlyUsedWordsInText.java)     | [/kata/51e056fe544cf36c410000fb](https://www.codewars.com/kata/51e056fe544cf36c410000fb)  |  4 kyu  |
 | Strip Comments:   | [bulk](katas/java/StripComments.java)     | [/kata/51c8e37cee245da6b40000bd](https://www.codewars.com/kata/51c8e37cee245da6b40000bd)  |  4 kyu  |
 | Human Readable Time:   | [bulk](katas/java/HumanReadableTime.java)     | [/kata/52685f7382004e774f0001f7](https://www.codewars.com/kata/52685f7382004e774f0001f7)  |  5 kyu  |
 | Backwards Read Primes:   | [bulk](katas/java/BackwardsReadPrimes.java)     | [/kata/5539fecef69c483c5a000015](https://www.codewars.com/kata/5539fecef69c483c5a000015)  |  6 kyu  |
