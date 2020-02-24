@@ -6,6 +6,17 @@
 
 | Name | Source | Kata Link | Kata Difficulty |
 | :---         |     ---:      |          ---: |          :---: |
+| `Tracking pawns:`   | [bulk](katas/java/TrackingPawns.java)     | [/kata/56b012bbee8829c4ea00002c](https://www.codewars.com/kata/56b012bbee8829c4ea00002c)  |  4 kyu  |
+| `Strings Mix:`   | [bulk](katas/java/StringsMix.java)     | [/kata/5629db57620258aa9d000014](https://www.codewars.com/kata/5629db57620258aa9d000014)  |  4 kyu  |
+| `parseInt() reloaded:`   | [bulk](katas/java/ParseIntReloaded.java)     | [/kata/525c7c5ab6aecef16e0001a5](https://www.codewars.com/kata/525c7c5ab6aecef16e0001a5)  |  4 kyu  |
+| `Count IP Addresses:`   | [bulk](katas/java/CountIpAddresses.java)     | [/kata/526989a41034285187000de4](https://www.codewars.com/kata/526989a41034285187000de4)  |  5 kyu  |
+| `Human readable duration format:`   | [bulk](katas/java/HumanReadableDurationFormat.java)     | [/kata/52742f58faf5485cae000b9a](https://www.codewars.com/kata/52742f58faf5485cae000b9a)  |  4 kyu  |
+| `Sudoku Solution Validator:`   | [bulk](katas/java/SudokuSolutionValidator.java)     | [/kata/529bf0e9bdf7657179000008](https://www.codewars.com/kata/529bf0e9bdf7657179000008)  |  4 kyu  |
+| `Merged String Checker:`   | [bulk](katas/java/MergedStringChecker.java)     | [/kata/54c9fcad28ec4c6e680011aa](https://www.codewars.com/kata/54c9fcad28ec4c6e680011aa)  |  5 kyu  |
+| `Scramblies:`   | [bulk](katas/java/Scramblies.java)     | [/kata/55c04b4cc56a697bb0000048](https://www.codewars.com/kata/55c04b4cc56a697bb0000048)  |  5 kyu  |
+| `Sum of Intervals:`   | [bulk](katas/java/SumOfIntervals.java)     | [/kata/52b7ed099cdc285c300001cd](https://www.codewars.com/kata/52b7ed099cdc285c300001cd)  |  4 kyu  |
+| `Permutations:`   | [bulk](katas/java/Permutations.java)     | [/kata/5254ca2719453dcc0b00027d](https://www.codewars.com/kata/5254ca2719453dcc0b00027d)  |  4 kyu  |
+| `Sort - one, three, two:`   | [bulk](katas/java/SortOneThreeTwo.java)     | [/kata/56f4ff45af5b1f8cd100067d](https://www.codewars.com/kata/56f4ff45af5b1f8cd100067d)  |  5 kyu  |
 | Valid Braces:   | [bulk](katas/java/ValidBraces.java)     | [/kata/5277c8a221e209d3f6000b56](https://www.codewars.com/kata/5277c8a221e209d3f6000b56)  |  6 kyu  |
 | Maximum subarray sum:   | [bulk](katas/java/MaximumSubarraySum.java)     | [/kata/54521e9ec8e60bc4de000d6c](https://www.codewars.com/kata/54521e9ec8e60bc4de000d6c)  |  5 kyu  |
 | Simple Pig Latin:   | [bulk](katas/java/SimplePigLatin.java)     | [/kata/520b9d2ad5c005041100000f](https://www.codewars.com/kata/520b9d2ad5c005041100000f)  |  5 kyu  |

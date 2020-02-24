@@ -28,7 +28,7 @@ public class MostFrequentlyUsedWordsInText {
 
     public static List<String> top3(String s) {
         Map<String, Integer> map = new ConcurrentHashMap<>();
-        Matcher matcher = Pattern.compile("\\b[a-z'-]+\\b").matcher(s.toLowerCase());
+        Matcher matcher = Pattern.compile("[a-z][a-z']*").matcher(s.toLowerCase());
         while (matcher.find()) {
             String key = matcher.group(0);
             map.put(key, map.getOrDefault(key, 0) + 1);
@@ -36,7 +36,6 @@ public class MostFrequentlyUsedWordsInText {
 
         Map<String, Integer> sortedMap = map.entrySet().stream()
                 .sorted((Map.Entry.<String, Integer>comparingByValue().reversed()))
-                .sorted((Map.Entry.<String, Integer>comparingByKey()))
                 .collect(Collectors.toMap(e -> e.getKey(), e -> e.getValue(), (e1, e2) -> e2, LinkedHashMap::new));
 
         return sortedMap.keySet().size() > 3 ? sortedMap.keySet().stream().collect(Collectors.toList()).subList(0, 3) : sortedMap.keySet().stream().collect(Collectors.toList());
