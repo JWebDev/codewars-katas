@@ -1,9 +1,9 @@
 package katas.java;
 
+import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.concurrent.ConcurrentHashMap;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.stream.Collectors;
@@ -27,7 +27,7 @@ public class MostFrequentlyUsedWordsInText {
     }
 
     public static List<String> top3(String s) {
-        Map<String, Integer> map = new ConcurrentHashMap<>();
+        Map<String, Integer> map = new HashMap<>();
         Matcher matcher = Pattern.compile("[a-z][a-z']*").matcher(s.toLowerCase());
         while (matcher.find()) {
             String key = matcher.group(0);

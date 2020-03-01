@@ -6,7 +6,7 @@
 
 | Name | Source | Kata Link | Kata Difficulty |
 | :---         |     ---:      |          ---: |          :---: |
-| `Tracking pawns:`   | [bulk](katas/java/TrackingPawns.java)     | [/kata/56b012bbee8829c4ea00002c](https://www.codewars.com/kata/56b012bbee8829c4ea00002c)  |  4 kyu  |
+| Tracking pawns:   | [bulk](katas/java/TrackingPawns.java)     | [/kata/56b012bbee8829c4ea00002c](https://www.codewars.com/kata/56b012bbee8829c4ea00002c)  |  4 kyu  |
 | `Strings Mix:`   | [bulk](katas/java/StringsMix.java)     | [/kata/5629db57620258aa9d000014](https://www.codewars.com/kata/5629db57620258aa9d000014)  |  4 kyu  |
 | `parseInt() reloaded:`   | [bulk](katas/java/ParseIntReloaded.java)     | [/kata/525c7c5ab6aecef16e0001a5](https://www.codewars.com/kata/525c7c5ab6aecef16e0001a5)  |  4 kyu  |
 | `Count IP Addresses:`   | [bulk](katas/java/CountIpAddresses.java)     | [/kata/526989a41034285187000de4](https://www.codewars.com/kata/526989a41034285187000de4)  |  5 kyu  |
