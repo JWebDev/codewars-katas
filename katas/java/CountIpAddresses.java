@@ -1,7 +1,5 @@
 package katas.java;
 
-import java.util.stream.IntStream;
-
 /**
  * @author JDev
  *
@@ -10,10 +8,12 @@ import java.util.stream.IntStream;
 public class CountIpAddresses {
 
     public static void main(String[] args) {
-        System.out.println(multiplies(10));
+        System.out.println(ipsBetween("10.0.0.0", "10.0.0.50")); //50
+        System.out.println(ipsBetween("20.0.0.10", "20.0.1.0")); //246
+        System.out.println(ipsBetween("10.0.0.0", "10.0.1.0")); //256
     }
 
-    private static int multiplies(int number) {
-        return IntStream.range(0, number).filter(n -> (n % 3 == 0 || n % 5 == 0)).sum();
+    public static long ipsBetween(String start, String end) {
+        return -1;
     }
 }
