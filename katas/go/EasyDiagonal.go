@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println(Diagonal(20, 3)) //5985
+	fmt.Println(Diagonal(2, 3)) //5985
 	//fmt.Println(Diagonal(20, 4))   //20349
 	//fmt.Println(Diagonal(20, 5))   //54264
 	//fmt.Println(Diagonal(20, 15))  //20349
