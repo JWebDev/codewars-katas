@@ -42,3 +42,4 @@
 | Sum of odd numbers:   | [bulk](katas/go/SumOfOddNumbers.go)     | [/kata/55fd2d567d94ac3bc9000064](https://www.codewars.com/kata/55fd2d567d94ac3bc9000064)  |  7 kyu  |
 | Mumbling:   | [bulk](katas/go/Mumbling.go)     | [/kata/5667e8f4e3f572a8f2000039](https://www.codewars.com/kata/5667e8f4e3f572a8f2000039)  |  7 kyu  |
 | Shortest Word:   | [bulk](katas/go/ShortestWord.go)     | [/kata/57cebe1dc6fdc20c57000ac9](https://www.codewars.com/kata/57cebe1dc6fdc20c57000ac9)  |  7 kyu  |
+| Sum of Digits / Digital Root:   | [bulk](katas/go/DigitalRoot.go)     | [/kata/541c8630095125aba6000c00](https://www.codewars.com/kata/541c8630095125aba6000c00)  |  6 kyu  |
