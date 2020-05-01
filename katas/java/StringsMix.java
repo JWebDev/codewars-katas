@@ -1,10 +1,17 @@
 package katas.java;
 
+import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.HashMap;
-import java.util.LinkedHashMap;
+import java.util.List;
 import java.util.Map;
+import java.util.StringJoiner;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
+
+import static java.lang.Character.isAlphabetic;
+import static java.lang.Character.isLowerCase;
+import static java.util.stream.Collectors.toList;
 
 /**
  * @author JDev
@@ -13,31 +20,32 @@ import java.util.stream.Stream;
  */
 public class StringsMix {
 
-    private static Map<String, Integer> mapOne = new HashMap<>();
-    private static Map<String, Integer> mapTwo = new HashMap<>();
-
     public static void main(String[] args) {
-        System.out.println(mix("Are they here", "yes, they are here"));
+//        System.out.println(mix("Are they here", "yes, they are here")); //2:eeeee/2:yy/=:hh/=:rr
+        System.out.println(mix("looping is fun but dangerous", "less dangerous than coding")); //1:ooo/1:uuu/2:sss/=:nnn/1:ii/2:aa/2:dd/2:ee/=:gg
+//
     }
 
     public static String mix(String s1, String s2) {
-        s1.chars().filter(w -> Character.isAlphabetic(w) && Character.isLowerCase(w)).forEach(w -> mapOne.put(Character.toString(w), mapOne.getOrDefault(Character.toString(w), 0) + 1));
-        s2.chars().filter(w -> Character.isAlphabetic(w) && Character.isLowerCase(w)).forEach(w -> mapTwo.put(Character.toString(w), mapTwo.getOrDefault(Character.toString(w), 0) + 1));
-        Map<String, Integer> mapFour = new HashMap<>();
-        Map<String, Integer> mapThree = Stream.of(mapOne, mapTwo).flatMap(m -> m.entrySet().stream())
-                .collect(Collectors.groupingBy(Map.Entry::getKey,))
-//                        (Collectors. toMap(Map.Entry::getKey, Map.Entry::getValue, (existing, replacement) -> {
-//                    int iii = Math.max(existing, replacement);
-//                    return existing;
-//                }));
-        mapThree = sortMapByValue(mapThree);
-        mapTwo = sortMapByValue(mapTwo);
-        return null;
+        Map<String, Integer> map1 = new HashMap<>(), map2 = new HashMap<>(), mergeMap = new HashMap<>();
+        List<String> unique = new ArrayList<>();
+        StringJoiner joiner = new StringJoiner("/");
+
+        s1.chars().filter(w -> isAlphabetic(w) && isLowerCase(w)).forEach(w -> map1.put(Character.toString(w), map1.getOrDefault(Character.toString(w), 0) + 1));
+        s2.chars().filter(w -> isAlphabetic(w) && isLowerCase(w)).forEach(w -> map2.put(Character.toString(w), map2.getOrDefault(Character.toString(w), 0) + 1));
+        mergeMap = Stream.of(map1, map2).flatMap(m -> m.entrySet().stream()).filter(entry -> entry.getValue() > 1).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue, Math::max));
+        mergeMap.forEach((k, v) -> {
+            unique.add(map1.containsKey(k) && map2.containsKey(k)
+                    ? map1.get(k).equals(map2.get(k)) ? "" : v.equals(map1.get(k)) ? "1:" + k.repeat(v) : "2:" + k.repeat(v)
+                    : map1.containsKey(k) ? "1:" + k.repeat(v) : "2:" + k.repeat(v));
+            unique.add((map1.containsKey(k) && map2.containsKey(k) && map1.get(k).equals(map2.get(k))) ? "=:" + k.repeat(v) : "");
+        });
+        Map<Integer, List<String>> groupedMap = unique.stream().filter(str -> !str.isEmpty()).collect(Collectors.groupingBy(str -> (int) str.chars().filter(ch -> isAlphabetic(ch)).count())); //collect(Collectors.joining());
+        groupedMap.keySet().stream().sorted(Comparator.reverseOrder()).collect(toList()).forEach(i -> {
+            groupedMap.get(i).stream().sorted().forEach(str -> joiner.add(str));
+        });
+
+        return joiner.toString();
     }
 
-    private static Map<String, Integer> sortMapByValue(Map<String, Integer> map) {
-        return map.entrySet().stream()
-                .sorted((Map.Entry.<String, Integer>comparingByValue().reversed()))
-                .collect(Collectors.toMap(e -> e.getKey(), e -> e.getValue(), (e1, e2) -> e2, LinkedHashMap::new));
-    }
 }
