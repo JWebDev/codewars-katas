@@ -11,7 +11,7 @@
 | `parseInt() reloaded:`   | [bulk](katas/java/ParseIntReloaded.java)     | [/kata/525c7c5ab6aecef16e0001a5](https://www.codewars.com/kata/525c7c5ab6aecef16e0001a5)  |  4 kyu  |
 | Count IP Addresses:   | [bulk](katas/java/CountIpAddresses.java)     | [/kata/526989a41034285187000de4](https://www.codewars.com/kata/526989a41034285187000de4)  |  5 kyu  |
 | Human readable duration format:   | [bulk](katas/java/HumanReadableDurationFormat.java)     | [/kata/52742f58faf5485cae000b9a](https://www.codewars.com/kata/52742f58faf5485cae000b9a)  |  4 kyu  |
-| `Sudoku Solution Validator:`   | [bulk](katas/java/SudokuSolutionValidator.java)     | [/kata/529bf0e9bdf7657179000008](https://www.codewars.com/kata/529bf0e9bdf7657179000008)  |  4 kyu  |
+| Sudoku Solution Validator:   | [bulk](katas/java/SudokuSolutionValidator.java)     | [/kata/529bf0e9bdf7657179000008](https://www.codewars.com/kata/529bf0e9bdf7657179000008)  |  4 kyu  |
 | `Merged String Checker:`   | [bulk](katas/java/MergedStringChecker.java)     | [/kata/54c9fcad28ec4c6e680011aa](https://www.codewars.com/kata/54c9fcad28ec4c6e680011aa)  |  5 kyu  |
 | `Scramblies:`   | [bulk](katas/java/Scramblies.java)     | [/kata/55c04b4cc56a697bb0000048](https://www.codewars.com/kata/55c04b4cc56a697bb0000048)  |  5 kyu  |
 | `Sum of Intervals:`   | [bulk](katas/java/SumOfIntervals.java)     | [/kata/52b7ed099cdc285c300001cd](https://www.codewars.com/kata/52b7ed099cdc285c300001cd)  |  4 kyu  |
@@ -42,8 +42,5 @@
 | Sum of odd numbers:   | [bulk](katas/go/SumOfOddNumbers.go)     | [/kata/55fd2d567d94ac3bc9000064](https://www.codewars.com/kata/55fd2d567d94ac3bc9000064)  |  7 kyu  |
 | Mumbling:   | [bulk](katas/go/Mumbling.go)     | [/kata/5667e8f4e3f572a8f2000039](https://www.codewars.com/kata/5667e8f4e3f572a8f2000039)  |  7 kyu  |
 | Shortest Word:   | [bulk](katas/go/ShortestWord.go)     | [/kata/57cebe1dc6fdc20c57000ac9](https://www.codewars.com/kata/57cebe1dc6fdc20c57000ac9)  |  7 kyu  |
-<<<<<<< HEAD
 | Sum of Digits / Digital Root:   | [bulk](katas/go/DigitalRoot.go)     | [/kata/541c8630095125aba6000c00](https://www.codewars.com/kata/541c8630095125aba6000c00)  |  6 kyu  |
-=======
 | ~~Easy Diagonal~~:   | [bulk](katas/go/EasyDiagonal.go)     | [/kata/559b8e46fa060b2c6a0000bf](https://www.codewars.com/kata/559b8e46fa060b2c6a0000bf)  |  6 kyu  |
->>>>>>> 005d3c94c6037592d68b97cf667a5e41d15aa1fc
