@@ -13,7 +13,7 @@
 | Human readable duration format:   | [bulk](katas/java/HumanReadableDurationFormat.java)     | [/kata/52742f58faf5485cae000b9a](https://www.codewars.com/kata/52742f58faf5485cae000b9a)  |  4 kyu  |
 | Sudoku Solution Validator:   | [bulk](katas/java/SudokuSolutionValidator.java)     | [/kata/529bf0e9bdf7657179000008](https://www.codewars.com/kata/529bf0e9bdf7657179000008)  |  4 kyu  |
 | `Merged String Checker:`   | [bulk](katas/java/MergedStringChecker.java)     | [/kata/54c9fcad28ec4c6e680011aa](https://www.codewars.com/kata/54c9fcad28ec4c6e680011aa)  |  5 kyu  |
-| `Scramblies:`   | [bulk](katas/java/Scramblies.java)     | [/kata/55c04b4cc56a697bb0000048](https://www.codewars.com/kata/55c04b4cc56a697bb0000048)  |  5 kyu  |
+| Scramblies:   | [bulk](katas/java/Scramblies.java)     | [/kata/55c04b4cc56a697bb0000048](https://www.codewars.com/kata/55c04b4cc56a697bb0000048)  |  5 kyu  |
 | `Sum of Intervals:`   | [bulk](katas/java/SumOfIntervals.java)     | [/kata/52b7ed099cdc285c300001cd](https://www.codewars.com/kata/52b7ed099cdc285c300001cd)  |  4 kyu  |
 | `Permutations:`   | [bulk](katas/java/Permutations.java)     | [/kata/5254ca2719453dcc0b00027d](https://www.codewars.com/kata/5254ca2719453dcc0b00027d)  |  4 kyu  |
 | `Sort - one, three, two:`   | [bulk](katas/java/SortOneThreeTwo.java)     | [/kata/56f4ff45af5b1f8cd100067d](https://www.codewars.com/kata/56f4ff45af5b1f8cd100067d)  |  5 kyu  |
